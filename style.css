@@ -1,0 +1,28 @@
+body, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 80px;
+}
+
+.navbar, .hero {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
