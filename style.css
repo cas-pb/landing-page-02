@@ -46,7 +46,7 @@ a {
     padding-bottom: 10px;
 }
 
-button {
+.left-hero > button {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
@@ -57,4 +57,88 @@ button {
 
 .secondary-text {
     padding-bottom: 26px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    height: 150px;
+}
+
+.text {
+    max-width: 250px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    
+}
+
+.author {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    margin: 40px 80px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+}
+
+.right-cta {
+    align-content: center;
+}
+
+.right-cta > button {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 25px;
+    font-weight: bold;
+}
+
+.bottom-left-cta {
+    padding-top: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    padding: 18px;
+    color: white;
 }
